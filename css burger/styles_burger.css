@@ -5,7 +5,7 @@
 }
 
 :root {
-    --nav-height: 80px;
+    --nav_height: 80px;
 }
 
 body {
@@ -36,7 +36,7 @@ img {
 
 .navbar {
   background: lightblue;
-  height: var(--nav-height);
+  height: var(--nav_height);
 }
 
 .navbar .logo {
@@ -63,10 +63,10 @@ img {
 /* mobile menu */
 .navbar .mobile-menu-items {
   position: absolute;
-  top: var(--nav-height);
+  top: var(--nav_height);
   left: 0;
   width: 100%;
-  min-height: calc(100vh - var(--nav-height));
+  /* min-height: calc(100vh - var(--nav_height)); */
   background: rgba(154, 192, 204, 0.95);
   text-align: center;
   transition: transform 0.3s ease;
