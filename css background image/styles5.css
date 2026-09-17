@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    /* a. background color only */
+    /* background-color: coral; */
+    /* background image */
+    /* background-image: url("./black-white-wavy-halftone-background-vector.png"); */
+    /* background image should use */
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* c. background image with pattern */
+    background-image: url("./black-white-wavy-halftone-background-vector.png");
+    /* background image should use */
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    height: 100vh;
+    color: green;
+    background: linear-gradient(to bottom right, red 10%,blue 50%, yellow 90%);
+
+
+}

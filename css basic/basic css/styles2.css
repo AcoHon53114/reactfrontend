@@ -1,0 +1,103 @@
+/* step 1 */
+html, body { 
+    font-family: "Noto Sans HK", sans-serif;
+    background-color: #111;
+} 
+
+/* step 2, reset all the element's default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+
+}
+main {
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    line-height: 1.25;
+    background-color: #d4e3e6;
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+article {
+    background-color: #fff;
+    border: 1px solid blue;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 1px;
+    /* padding: 10px 1px 30px 10px; */
+    margin: 20px 45px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+h2 {
+    padding: 0 0 5px;
+    margin: 0 0 20px;
+    font-size: 26px;
+    /* border: 1px solid red; */
+}
+
+p {
+    width: 75%;
+    color: black;
+    margin-bottom: 30px;
+    font-size: 20px;
+    /* border: 1px solid red; */
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+.sporty {
+    margin-top: 40px;
+    color: red;
+    background: #fff url("../image/shoes.png") no-repeat center right/200px;
+}
+.casual {
+    color: blue;
+    background: #fff url("../image/shoes_2.png") no-repeat center right/200px;
+}
+
+a {color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+.sporty a {
+    background-color: red
+    
+}
+
+.casual a {
+    background-color: blue
+    
+}
+
+.formal {
+    color: brown;
+    background: #fff url("../image/shoes_3.png") no-repeat center right/200px;
+}
+
+.formal a {
+    background-color: brown;
+    
+}
+
+/* multiple element selector */
+/* html, body { */
+    font-family: "Noto Sans HK", sans-serif;
+/* } */
+/* html { */
+    border: 1px solid red;
+
+/* } */
+/* body { */
+    border: 1px solid blue;
+/* } */

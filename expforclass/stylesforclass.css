@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body.html {
+    font-family: poppins sans-serif;
+    word-spacing: 3px;
+    text-decoration: capitalize;
+    line-height: 1.5;
+    background-color: #ffffffcb;
+}
+
+
+h1 {
+    padding: 35px;
+    background-color: coral;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.menu {
+    display: flex;
+    padding: 20px;
+    background-color: #eee;
+    column-gap: 20px;
+    text-transform: capitalize;
+}
+
+a:hover {
+    color: coral;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    letter-spacing: 1px;
+}
+
+.menu a {
+    font-size: 22px;
+}
+main {
+    /* grow =1 shrink =1 base from 1 */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38px;
+    padding: 0 20px;
+}
+
+aside {
+    width: 300px;
+    padding: 20px;
+    text-transform: capitalize;
+}
+
+article {
+    flex: 1;
+    padding: 20px;
+}
+
+p {
+    margin: 20px 0;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+h2 {
+    text-transform: capitalize;
+}
+
+h3 {
+    color: #fff;
+    background-color: coral;
+    padding: 10px;
+
+}
+
+.posts a {
+    font-size: 20px;
+}
+
+.posts li {
+    background-color: #ddd;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        padding: 21px;
+        font-size: 22px;
+        text-align: center;
+    }
+    ul.menu {
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+    }
+    .menu li {
+        border-bottom: 1px solid #ccc;
+        padding: 22px;
+    }
+    .menu li:last-child {
+        border-bottom: none;
+        padding-bottom: 25px;
+    }
+    main {
+        flex-direction: column-reverse;
+        margin-top: 24px;
+    }
+    aside {
+        width: 95%;
+    }
+    .posts li {
+        padding: 8px;
+    }
+}

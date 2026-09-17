@@ -1,0 +1,78 @@
+/* element direct child */
+html, body { 
+    font-family: "Noto Sans HK", sans-serif;
+} 
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: boarder-box;
+}
+
+main {
+    /* 要計縮放比例 */
+    width: 99%;
+    max-width: 100;
+    margin: 0 auto;
+    padding: 20px 10px ; 
+    background-color: #ffffff;
+    /* short hand is #fff */
+    height: 80vh;
+}
+
+header {
+    font-size: 50px;
+    text-transform:capitalize;
+    padding: 10px 0;
+    background-color: rgb(94, 23, 91);
+    color: white;
+    text-align: center;
+}
+
+nav {
+    margin: 30px 0;
+    background-color: rgb(244, 244, 244);
+}
+
+ul {
+    list-style-type: none;
+    
+}
+
+li {
+    line-height: 1.5;
+}
+
+a {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ text-decoration: none;
+ color: black;
+ font-size: 22px;
+ text-transform: uppercase;
+ padding-left: 10px;
+}
+
+a:hover{
+    color: red;
+}
+
+a:visited { 
+    color: green;
+}
+
+article h3 {
+    color: purple;
+    /* text-transform:capitalize; */
+}
+
+/* 只呢行第一個字大寫 */
+article h3::first-letter, p::first-letter { 
+    text-transform: uppercase;
+}
+
+p {
+    line-height: 2;
+    margin: 20px 0;
+
+}
+

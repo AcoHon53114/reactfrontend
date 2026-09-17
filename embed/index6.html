@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- audio method 1-->
+    <audio src="./audio.mp3" controls type="audio/mp3"></audio>
+
+    <!-- audio method 2 fallback-->
+    <audio controls>
+        <source src="./audio.mp3" type="audio/mp3">
+        <source src="./audio.ogg" type="audio/ogg">
+        <p>Your browser does not support the audio.</p>
+    </audio>
+
+    <!-- audio autoplay -->
+     <audio src="./audio.mp3" controls type="audio/mp3" autoplay loop></audio>
+
+    <!-- video -->
+    <video src="./video.mp4" controls type="video/mp4"></video>
+
+    <!-- iframe -->
+    <iframe src="../embed/about copy.html" frameborder="10"></iframe>
+    <iframe src="../embed/about copy.html" frameborder="1"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d59057.183323635356!2d114.23012204999999!3d22.31304255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2shk!4v1788322564078!5m2!1sen!2shk" ></iframe>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d59057.18334478597!2d114.230122!3d22.3130425!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2shk!4v1788322934724!5m2!1sen!2shk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+    <!-- image map -->
+    <img src="./image.jpg" alt="Image" usemap="#image-map">
+    <map name="image-map">
+        <area shape="rect" coords="34,44,270,350" href="about.html" alt="Computer">
+    </map>
+
+</body>
+</html>

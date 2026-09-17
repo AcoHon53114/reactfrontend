@@ -1,0 +1,218 @@
+/* ================================
+   General Settings
+   ================================ */
+
+•⁠  ⁠{
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    padding: 30px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: #eeeeee;
+    color: #333333;
+}
+
+
+/* ================================
+   Main Container
+   ================================ */
+
+.container {
+    width: 600px;
+    min-height: 400px;
+
+    margin: 0 auto;
+
+    background-color: #ffffff;
+
+    border-radius: 8px;
+
+    overflow: hidden;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* ================================
+   Header
+   ================================ */
+
+header {
+    background-color: coral;
+
+    padding: 18px 20px;
+}
+
+
+header h1 {
+    margin: 0;
+
+    font-size: 22px;
+    font-weight: bold;
+
+    color: #333333;
+}
+
+
+/* ================================
+   Navigation Bar
+   ================================ */
+
+nav {
+    display: flex;
+
+    gap: 20px;
+
+    padding: 12px 15px;
+
+    background-color: #eeeeee;
+}
+
+
+nav a {
+    color: #333333;
+
+    text-decoration: none;
+
+    font-size: 13px;
+}
+
+
+nav a:hover {
+    color: coral;
+}
+
+
+/* ================================
+   Main Flexbox Layout
+   ================================ */
+
+.content {
+
+    /* Turn content into Flexbox */
+    display: flex;
+
+    /* Space between main and sidebar */
+    gap: 25px;
+
+    padding: 25px 20px;
+}
+
+
+/* ================================
+   Main Content - Left Side
+   ================================ */
+
+main {
+
+    /*
+       Take all remaining
+       available space
+    */
+
+    flex: 1;
+}
+
+
+main h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+
+    font-size: 16px;
+}
+
+
+main p {
+    margin-bottom: 15px;
+
+    font-size: 11px;
+
+    line-height: 1.5;
+}
+
+
+/* ================================
+   Sidebar - Right Side
+   ================================ */
+
+aside {
+    width: 150px;
+
+    flex-shrink: 0;
+}
+
+
+/* Sidebar Title */
+
+aside h3 {
+    margin: 0;
+
+    padding: 7px 8px;
+
+    background-color: coral;
+
+    color: #ffffff;
+
+    font-size: 12px;
+}
+
+
+/* Remove default list style */
+
+aside ul {
+    list-style: none;
+
+    padding: 0;
+
+    margin: 0;
+}
+
+
+/* Sidebar Posts */
+
+aside li {
+    padding: 7px 8px;
+
+    background-color: #eeeeee;
+
+    border-bottom: 1px solid #dddddd;
+
+    font-size: 10px;
+}
+
+
+/* ================================
+   Responsive Design
+   ================================ */
+
+@media (max-width: 650px) {
+
+    body {
+        padding: 10px;
+    }
+
+
+    .container {
+        width: 100%;
+    }
+
+
+    .content {
+        flex-direction: column;
+    }
+
+
+    aside {
+        width: 100%;
+    }
+
+
+    nav {
+        flex-wrap: wrap;
+    }
+}

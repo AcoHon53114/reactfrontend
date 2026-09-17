@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Text input -->
+    <form action="#" method="get">
+      <div>
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="aco"
+          placeholder="enter your name"
+          required
+        />
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="xxx@xxx.com"
+          value="abc@abc.com"
+          readonly
+        />
+      </div>
+      <div>
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="123456"
+          minlength="3"
+          maxlength="10"
+          required
+        />
+      </div>
+      <div>
+        <label>Message:</label>
+        <textarea
+          name="message"
+          rows="1"
+          cols="10"
+          style="resize: none"
+          required
+        ></textarea>
+      </div>
+      <!-- Selection input -->
+      <label for="product">Select your product:</label>
+      <select name="product" id="product">
+        <option value="pc">pc</option>
+        <option value="iphone" selected>iphone</option>
+        <option value="ipad">ipad</option>
+        <option value="watch">watch</option>
+      </select>
+      <!-- multiple select -->
+      <label for="product">Select your products:</label>
+      <select name="products" id="products" multiple size="2">
+        <option value="pc">pc</option>
+        <option value="iphone" selected>iphone</option>
+        <option value="ipad">ipad</option>
+        <option value="watch">watch</option>
+      </select>
+
+      <!-- checkbox -->
+      <label for="html">
+        <input type="checkbox" name="html" id="html" value="html" />HTML</label
+      >
+      <label for="css">
+        <input
+          type="checkbox"
+          name="css"
+          id="css"
+          value="css"
+          checked
+        />CSS</label
+      >
+      <label for="js">
+        <input type="checkbox" name="js" id="js" value="js" />JavaScript</label
+      >
+
+      <!-- radio button -->
+      <label for="small">
+        <input type="radio" name="size" id="small" value="small" />Small</label
+      >
+
+      <label for="medium">
+        <input
+          type="radio"
+          name="size"
+          id="medium"
+          value="medium"
+        />Medium</label
+      >
+
+      <label for="large">
+        <input type="radio" name="size" id="large" value="large" />Large</label
+      >
+
+      <!-- other input types -->
+      <label for="date">Date:</label>
+      <input type="date" name="date" id="date" />
+
+      <label for="week">week:</label>
+      <input type="week" name="week" id="week" />
+
+      <label for="month">month:</label>
+      <input type="month" name="month" id="month" />
+
+      <label for="time">Time:</label>
+      <input type="time" name="time" id="time" />
+
+      <label for="color">Color:</label>
+      <input type="color" name="color" id="color" />
+
+      <label for="file">File:</label>
+      <input
+        type="file"
+        name="file"
+        id="file"
+        accept=".jpg,.jpeg,.png,.gif,.pdf"
+      />
+
+      <label for="range">Range:</label>
+      <input type="range" name="range" id="range" min="0" max="100" step="10" />
+
+      <!-- data list -->
+      <label for="lang">Select your programming tools:</label>
+      <input list="languages" name="lang" id="lang" />
+      <datalist id="languages">
+        <option value="HTML"></option>
+        <option value="CSS"></option>
+        <option value="JavaScript"></option>
+      </datalist>
+
+      <label for="tick">tick:</label>
+      <input
+        type="range"
+        name="tick"
+        id="tick"
+        list="tickmarks"
+        min="0"
+        max="100"
+      />
+      <datalist id="tickmarks">
+        <option value="0"></option>
+        <option value="20"></option>
+        <option value="40"></option>
+        <option value="60"></option>
+        <option value="80"></option>
+        <option value="100"></option>
+      </datalist>
+
+      <p>加一行字</p>
+
+      <button type="submit">Submit</button>
+      <br />
+    </form>
+  </body>
+</html>
