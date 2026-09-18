@@ -1,0 +1,50 @@
+css font
+
+.combo-regular {
+  font-family: "Combo", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html font
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Combo&display=swap" rel="stylesheet"></link>
+
+font awesome
+<i class="fa-brands fa-facebook"></i>
+
+<i class="fa-brands fa-threads"></i>
+
+<i class="fa-brands fa-square-x-twitter"></i>
+
+<i class="fa-solid fa-wallet"></i>
+
+<i class="fa-solid fa-tree"></i>
+<i class="fa-sharp fa-solid fa-socks"></i>
+
+text color
+#121917
+
+#ACE6B5
+#6A994E
+#87DE55
+
+color tone
+
+{
+  "radioactive-grass": {
+    --clr-primary-0: #f0fbea,
+    --clr-primary-1: #e1f7d4,
+    --clr-primary-2: #c3eeaa,
+    --clr-primary-3: #a5e67f,
+    --clr-primary-4: #87dd55,
+    --clr-primary-5: #69d52a,
+    --clr-primary-6: #54aa22,
+    --clr-primary-7: #3f8019,
+    --clr-primary-8: #2a5511,
+    --clr-primary-9: #152b08,
+    --clr-primary-10: #0f1e06
+  }
+}
