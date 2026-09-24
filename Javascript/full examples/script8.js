@@ -43,8 +43,18 @@ function insertBeforeItem() {
     const ul = document.querySelector("ul");
     const li = document.createElement("li");
     li.textContent = "insertBefore demo";
-    const thirdItem = document.querySelector("li:nth-child(3");
+    const thirdItem = document.querySelector("li:nth-child(3)");
 // from parent, insert li before third child
     ul.insertBefore(li, thirdItem);
 }
 insertBeforeItem();
+
+// insert after
+function insertAfter(newEl, existingEl) {
+    existingEl.parentElement.insertBefore(newEl, existingEl.nextSibling);
+}
+    const li = document.createElement("li");
+    li.textContent = "insert after demo";
+    const thirdItem = document.querySelector("li:nth-child(4)");
+
+insertAfter(li, thirdItem);
