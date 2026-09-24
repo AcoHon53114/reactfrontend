@@ -1,0 +1,18 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <!-- 本子底色 -->
+  <rect x="40" y="32" width="176" height="192" rx="12" fill="#f8f5e6"/>
+  <!-- 书脊 -->
+  <rect x="40" y="32" width="24" height="192" rx="4" fill="#e6c89c"/>
+  <!-- 装订线 -->
+  <line x1="64" y1="64" x2="64" y2="192" stroke="#b8926c" stroke-width="3"/>
+  <!-- 纸张横线 -->
+  <line x1="88" y1="80" x2="200" y2="80" stroke="#cccccc" stroke-width="2"/>
+  <line x1="88" y1="112" x2="200" y2="112" stroke="#cccccc" stroke-width="2"/>
+  <line x1="88" y1="144" x2="200" y2="144" stroke="#cccccc" stroke-width="2"/>
+  <line x1="88" y1="176" x2="200" y2="176" stroke="#cccccc" stroke-width="2"/>
+  <!-- 笔 -->
+  <g transform="rotate(-25 180 160)">
+    <rect x="160" y="140" width="60" height="12" rx="2" fill="#4472c4"/>
+    <polygon points="220 140 232 146 220 152" fill="#222222"/>
+  </g>
+</svg>
