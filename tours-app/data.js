@@ -10,3 +10,62 @@ export const socialLinks = [
     {id : 2, href: "https://www.threads.com", iconClass: "fa-brands fa-threads"},
     {id : 3, href: "https://x.com", iconClass: "fa-brands fa-x-twitter"},
 ]
+
+export const services = [
+    {id: 1, icon: "fa-solid fa-wallet", title: "saving money", info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, earum!"},
+    {id: 2, icon: "fa-solid fa-tree", title: "endless hiking", info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, earum!"},
+    {id: 3, icon: "fa-solid fa-socks", title: "amazing comfort", info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, earum!"},
+]
+
+import tour1 from './src/assets/Copilot_20260918_103647.png';
+import tour2 from './src/assets/Copilot_20260918_103651.png';
+import tour3 from './src/assets/Copilot_20260918_103654.png';
+import tour4 from './src/assets/Copilot_20260918_103657.png';
+
+export const tours = [
+    {id: 1,
+    image: 'tour1',
+    date: 'september 26th, 2026',
+    title: 'mount everest',
+    info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, earum!',
+    location: 'china',
+    duration: 6,
+    price: 2100,
+    }
+]
+
+export const tours = [
+    {id: 2,
+    image: 'tour2',
+    date: 'september 27th, 2026',
+    title: 'mount everest',
+    info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, earum!',
+    location: 'china',
+    duration: 6,
+    price: 2100,
+    }
+]
+
+export const tours = [
+    {id: 3,
+    image: 'tour3',
+    date: 'september 28th, 2026',
+    title: 'mount everest',
+    info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, earum!',
+    location: 'china',
+    duration: 6,
+    price: 2100,
+    }
+]
+
+export const tours = [
+    {id: 4,
+    image: 'tour4',
+    date: 'september 29th, 2026',
+    title: 'mount everest',
+    info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, earum!',
+    location: 'china',
+    duration: 6,
+    price: 2100,
+    }
+]
