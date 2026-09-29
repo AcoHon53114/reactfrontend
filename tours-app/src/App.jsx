@@ -1,6 +1,6 @@
 import './css/style.css'
-import Navbar from './components/Navbar'
-
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -156,22 +156,7 @@ return (
     </section>
 
 {/* footer  */}
-    <footer className="section footer">
-<ul className="footer-list">
-    <li><a href="#home">home</a></li>
-    <li><a href="#about">about</a></li>
-    <li><a href="#services">services</a></li>
-    <li><a href="#tours">tours</a></li>
-</ul>
-<ul className="footer-icons">
-
-{/* add social media links inside href */}
-    <li><a href="#" className="footer-icon"><i className="fa-brands fa-facebook" ></i></a></li>
-   <li><a href="#" className="footer-icon"><i className="fa-brands fa-threads" ></i></a></li> 
-  <li><a href="#" className="footer-icon"><i className="fa-brands fa-x-twitter" ></i></a></li>
-</ul>
-<p className="copyright">copyright &copy; backroads travel tours company <span id="date"></span>. all rights reserved</p>
-    </footer> 
+<Footer />
     </>
 )
 

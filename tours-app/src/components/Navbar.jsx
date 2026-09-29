@@ -1,4 +1,6 @@
 import logo from '../assets/T.png'
+import PageLinks from './PageLinks'
+import SocialLinks from './SocialLinks'
 
 // short hand: rafce 
 
@@ -10,19 +12,9 @@ const Navbar = () => {
 
 {/* main menu  */}
 <div className="main-menu">
-<ul className="main-menu-list">
-    <li><a href="#home">home</a></li>
-    <li><a href="#about">about</a></li>
-    <li><a href="#services">services</a></li>
-    <li><a href="#tours">tours</a></li>
-</ul>
-<ul className="nav-icons">
-
+    <PageLinks groupClass="main-menu-list" />
 {/* add social media links inside href  */}
-    <li><a href="#" className="nav-icon"><i className="fa-brands fa-facebook" ></i></a></li>
-   <li><a href="#" className="nav-icon"><i className="fa-brands fa-threads" ></i></a></li> 
-  <li><a href="#" className="nav-icon"><i className="fa-brands fa-x-twitter" ></i></a></li>
-</ul>
+<SocialLinks groupClass="nav-icons" listItemClass="nav-icon"/>
 </div>
 
 {/* mobile menu */}
@@ -30,12 +22,7 @@ const Navbar = () => {
 <div className="mobile-menu-toggle">
     <i className="fa-solid fa-bars"></i>
     <div className="mobile-menu-items">
-        <ul className="mobile-menu-list">
-        <li><a href="#home">home</a></li>
-        <li><a href="#about">about</a></li>
-        <li><a href="#services">services</a></li>
-        <li><a href="#tours">tours</a></li> 
-        </ul>
+        <PageLinks groupClass="mobile-menu-list" />
     </div>
 </div>
 </div>
