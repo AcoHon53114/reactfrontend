@@ -1,4 +1,8 @@
-const Tour = ({image,date,title,info,location,duration,price}) => {
+import React from 'react'
+
+const Tour = ({
+    image, date,title,info,location,duration,price
+}) => {
   return (
     <article className="tour-card">
                 <div className="tour-img-container">
@@ -8,7 +12,7 @@ const Tour = ({image,date,title,info,location,duration,price}) => {
                <div className="tour-info">
                 <div className="tour-title"><h4>{title}</h4></div>
                 <p>{info}</p>
-                <div classNameName="tour-footer">
+                <div className="tour-footer">
                     <p><span><i className="fa-solid fa-map"></i>{location}</span></p>
                     <p>{duration} days</p>
                     <p>from ${price}</p>
